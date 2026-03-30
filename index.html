@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset = "UTF-8">
+<title>Digital Clock</title>
+<link rel="stylesheet" href = "style.css">
+</head>
+<body>
+<div class = "container">
+   <h1>Digital Clock</h1>
+   <div id="ampm">AM</div>
+   <div class ="clock">
+      <div class = "circle">
+         <svg>
+            <circle cx="70" cy="70" r ="60"></circle>
+            <circle cx="70" cy="70" r ="60" id = "h"></circle>
+         </svg>
+         <div id = "hours">00</div>
+         <span>Hours</span>
+      </div>
+      <div class = "circle">
+         <svg>
+            <circle cx="70" cy="70" r ="60"></circle>
+            <circle cx="70" cy="70" r ="60" id = "m"></circle>
+         </svg>
+         <div id = "minutes">00</div>
+         <span>Minutes</span>
+      </div>
+      <div class = "circle">
+         <svg>
+            <circle cx="70" cy="70" r ="60"></circle>
+            <circle cx="70" cy="70" r ="60" id = "s"></circle>
+         </svg>
+         <div id = "seconds">00</div>
+         <span>Seconds</span>
+      </div>
+   </div>
+   <div id="date">Mon, Mar 29</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
